@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# This script is displaying "Best School"  times
+# This script is displaying "Best School" 10 times
+#if condition with the position 4 and 8
 i=0
 while ((i < 10))
 do
