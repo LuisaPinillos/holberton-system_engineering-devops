@@ -2,6 +2,6 @@
 # This script displays the content of 
 #the current directory
 for f in *
-do 
-    echo "$f"
+do
+    echo "$f" | cut -d '-' -f 2
 done
