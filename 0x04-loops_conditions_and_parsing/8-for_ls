@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This script displays the content of 
+#the current directory
+ls
