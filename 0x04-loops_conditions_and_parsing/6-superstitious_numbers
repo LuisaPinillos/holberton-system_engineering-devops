@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# This script is displaying "Best School"  times
+# This script is displaying "Best School" 20 times
+#excep some numbers implement the case statements
 i=0
 while ((i < 20))
 do
