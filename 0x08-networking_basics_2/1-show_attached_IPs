@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #displays all active IPv4 IPs on
 #the machine it’s executed on.
-ip addr
+ifconfig -a
