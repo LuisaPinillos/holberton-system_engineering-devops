@@ -2,5 +2,5 @@
 #change the local ip and facebook ip
 cp /etc/hosts ~/hosts.new
 sed s/127.0.0.1/127.0.0.2/ ~/hosts.new
-echo "8.8.8.8   facebook.com" >> ~/hosts.new
-cp -f ~/hosts.new /etc/hosts
+sed "2i 8.8.8.8   facebook.com" ~/hosts.new
+cp -fi ~/hosts.new /etc/hosts
