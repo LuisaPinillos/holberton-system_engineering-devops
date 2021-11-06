@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #Listens on port 
 #98 on localhost.
-nc -lvu  127.0.0.2 5060
+nc -lvu  127.0.0.2 98
