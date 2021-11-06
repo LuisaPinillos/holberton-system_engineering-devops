@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #Listens on port 
 #98 on localhost.
-netcat -l -p [98]
+sudo lsof -n -i | grep 98
