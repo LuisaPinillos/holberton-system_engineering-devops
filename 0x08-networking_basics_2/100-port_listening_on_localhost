@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #Listens on port 
 #98 on localhost.
-sudo lsof -nP -iTCP:98 -sTCP:LISTEN
+nc -lvu  127.0.0.2 5060
