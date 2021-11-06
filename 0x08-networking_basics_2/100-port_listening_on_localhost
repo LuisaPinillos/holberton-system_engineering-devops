@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #Listens on port 
 #98 on localhost.
-sudo netstat -tnlp | grep :98
+sudo lsof -nP -iTCP:98 -sTCP:LISTEN
