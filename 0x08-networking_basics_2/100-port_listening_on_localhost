@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #Listens on port 
 #98 on localhost.
-sudo nc -l -p 98
+sudo nc -l -v -p 98
