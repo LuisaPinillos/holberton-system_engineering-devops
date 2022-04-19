@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-# This script connect to server using the private key.
-ssh -i ~/.ssh/school ubuntu@35.227.74.85
+# This script connect to server using the private key in ssh/school
+# It log in with user ubuntu in the ip direction.
+ssh -i ~/.ssh/school ubuntu@54.144.204.38
