@@ -1,0 +1,3 @@
+In this web stack debugging task, we are testing how well the web server configuration is working with Nginx under pressure and it turns out that it is not working well: we are getting a lot of failed requests.
+
+For benchmarking, ApacheBench is being used, which is quite a popular tool in the industry. Allows you to simulate HTTP requests to a web server. In this case, 2000 requests were made to my server with 100 requests at a time. But 943 requests failed, we must fix our stack to get to 0.
