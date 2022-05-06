@@ -5,6 +5,6 @@ exec { 'Change hard':
   provider => shell,
 }
 exec { 'Change soft':
-  command  => 'sudo sed -i 's/nofile 4/nofile 4096' /etc/security/limits.conf',
+  command  => 'sudo sed -i 's/nofile 4/nofile 2000' /etc/security/limits.conf',
   provider => shell,
 }
