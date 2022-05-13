@@ -13,4 +13,5 @@ Firewall is a network security system that monitors and controls incoming and ou
 
 ## 📚 Recourses
 - [Configure firewall](https://www.digitalocean.com/community/tutorials/como-configurar-un-firewall-con-ufw-en-ubuntu-18-04-es)
+- [Configure firewall](https://computernewage.com/2014/08/10/como-configurar-el-firewall-ufw-en-ubuntu/)
 - [How to manage and forward ports with UFW](https://www.arubacloud.com/tutorial/how-to-manage-and-forward-ports-with-ufw-on-ubuntu-18-04.aspx)
