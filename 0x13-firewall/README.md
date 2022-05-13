@@ -1,30 +1,17 @@
-# 0x13. Firewall
+# 🔥 0x13. Firewall
 
 Firewall is a network security system that monitors and controls incoming and outgoing network traffic based on established security rules.
 
-## Installation
+![Imagen firewall](https://user-images.githubusercontent.com/85373056/168180911-34edf317-0d96-4fad-97b2-ae313639f8f4.png)
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+- A firewall serves to prevent confidential information from being stolen or a virus from being installed on the computer, thus preserving the security and privacy of information.
 
-```bash
-pip install foobar
-```
+| Projects | Description |
+| --- | --- |
+| [0-block_all_incoming_traffic_but](https://github.com/LuisaPinillos/holberton-system_engineering-devops/blob/main/0x13-firewall/0-block_all_incoming_traffic_but) | Install the ufw firewall and setup rules that block all incoming traffic, except ports: 22 (SSH), 443 (HTTPS SSL), 80 (HTTP) on web-01 server. |
+| [100-port_forwarding](https://github.com/LuisaPinillos/holberton-system_engineering-devops/blob/main/0x13-firewall/100-port_forwarding)| Configure web-01 so that the firewall forwards port 8080/TCP to port 80/TCP. |
 
-## Usage
-
-```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
-
-## Recourses
-- [configure firewall](https://www.digitalocean.com/community/tutorials/como-configurar-un-firewall-con-ufw-en-ubuntu-18-04-es)
+## 📚 Recourses
+- [Configure firewall](https://www.digitalocean.com/community/tutorials/como-configurar-un-firewall-con-ufw-en-ubuntu-18-04-es)
+- [How to enable and configure the firewall](https://computernewage.com/2014/08/10/como-configurar-el-firewall-ufw-en-ubuntu/)
 - [How to manage and forward ports with UFW](https://www.arubacloud.com/tutorial/how-to-manage-and-forward-ports-with-ufw-on-ubuntu-18-04.aspx)
