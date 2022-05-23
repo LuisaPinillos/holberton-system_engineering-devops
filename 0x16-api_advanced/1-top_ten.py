@@ -1,12 +1,21 @@
 #!/usr/bin/python3
-"""
-1-main
-"""
-import sys
+"""Module with top_ten function"""
+import requests
 
-if __name__ == '__main__':
-    top_ten = __import__('1-top_ten').top_ten
-    if len(sys.argv) < 2:
-        print("Please pass an argument for the subreddit to search.")
-    else:
-        top_ten(sys.argv[1])
+
+def top_ten(subreddit):
+    """ show the top 10 posts in a subreddit """
+    try:
+        # Change the user agent
+        headers = {'User-Agent': 'cmmolanos'}
+        payload = {'t': 'all', 'limit': '10'}
+        request = requests.get('https://api.reddit.com/r/{}/hot'.
+                               format(subreddit), headers=headers,
+                               params=payload)
+        top_posts = request.json()
+
+        for post in top_posts['data']['children']:
+            print(post['data']['title'])
+
+    except:
+        print("None")
